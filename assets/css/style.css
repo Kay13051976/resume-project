@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi&family=Raleway&family=Roboto:wght@100,200,300,400,500,600,700|Exo:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi&family=Raleway&family=Roboto:wght@100,200,300,400,500,600,700|Exo:wght@100,300&display=swap");
 
 /*----------------------------Colours */
 .bg-color-name-title {
@@ -19,6 +19,22 @@ header {
 .ui-menu-color-download {
   background-color: #525252;
 }
+/*----------------------------Special paddings/margins/text */
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.general-sub {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  color: #fafafa;
+}
+
 /*----------------------------Heading */
 
 .heading {
@@ -96,4 +112,10 @@ header {
   background: rgba(0, 0, 0, 0.2);
 
   height: 120px;
+}
+/*----------------------------Footer */
+footer {
+  background-color: #525252;
+  color: #fafafa;
+  min-height: 120px;
 }
